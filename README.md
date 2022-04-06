@@ -6,7 +6,7 @@ In different terminals run the following:
 
 ```
 source install/setup.bash
-cd src/Px4
+cd src/PX4
 HEADLESS=1 make px4_sitl_rtps jmavsim
 ```
 
