@@ -6,7 +6,7 @@ In different terminals run the following:
 
 ```
 source install/setup.bash
-cd src/px4
+cd src/Px4
 HEADLESS=1 make px4_sitl_rtps jmavsim
 ```
 
@@ -18,8 +18,8 @@ micrortps_agent -t UDP
 Lastly, verify topics are being received and run the example
 
 ```
-ros2 topic list
-ros2 topic echo a_topic
+ros2 topic list (try again if not all were shown)
+ros2 topic echo /fmu/vehicle_status/out
 ```
 
 ```
