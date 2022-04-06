@@ -18,8 +18,8 @@ micrortps_agent -t UDP
 Lastly, verify topics are being received and run the example
 
 ```
-ros2 topic list
-ros2 topic echo a_topic
+ros2 topic list (try again if not all were shown)
+ros2 topic echo /fmu/vehicle_status/out
 ```
 
 ```
